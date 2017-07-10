@@ -1,0 +1,153 @@
+2017-06-29 15:29:19 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@7364985f: startup date [Thu Jun 29 15:29:19 CST 2017]; root of context hierarchy
+2017-06-29 15:29:19 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [application.xml]
+2017-06-29 15:31:41 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@7364985f: startup date [Thu Jun 29 15:31:41 CST 2017]; root of context hierarchy
+2017-06-29 15:31:41 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [application.xml]
+2017-07-03 10:49:17 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@6b1274d2: startup date [Mon Jul 03 10:49:17 CST 2017]; root of context hierarchy
+2017-07-03 10:49:17 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:49:17 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:50:46 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@6b1274d2: startup date [Mon Jul 03 10:50:46 CST 2017]; root of context hierarchy
+2017-07-03 10:50:46 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:50:46 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:54:46 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@6b1274d2: startup date [Mon Jul 03 10:54:46 CST 2017]; root of context hierarchy
+2017-07-03 10:54:46 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:54:47 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:54:48 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:54:48 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:54:48 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.test4j.module.Test4JException: No value found for property database.type
+2017-07-03 10:56:03 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 10:56:03 CST 2017]; root of context hierarchy
+2017-07-03 10:56:03 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:56:04 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:56:04 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:56:04 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:56:04 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type [java.lang.String] to required type [org.springframework.core.io.Resource[]] for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:gaoshuai/mapping/*.xml]: class path resource [gaoshuai/mapping/] cannot be resolved to URL because it does not exist
+2017-07-03 10:57:53 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 10:57:53 CST 2017]; root of context hierarchy
+2017-07-03 10:57:53 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:57:53 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:57:54 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:57:54 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:57:54 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type [java.lang.String] to required type [org.springframework.core.io.Resource[]] for property 'mapperLocations'; nested exception is java.lang.IllegalArgumentException: Could not resolve resource location pattern [classpath:gaoshuai/mapping/*.xml]: class path resource [gaoshuai/mapping/] cannot be resolved to URL because it does not exist
+2017-07-03 10:59:05 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 10:59:05 CST 2017]; root of context hierarchy
+2017-07-03 10:59:06 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 10:59:06 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 10:59:07 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:59:07 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 10:59:08 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatisCfg.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource UserMapper.xml
+2017-07-03 11:00:35 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@4883b407: startup date [Mon Jul 03 11:00:35 CST 2017]; root of context hierarchy
+2017-07-03 11:00:35 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [application.xml]
+2017-07-03 11:00:35 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@16022d9d: startup date [Mon Jul 03 11:00:35 CST 2017]; root of context hierarchy
+2017-07-03 11:00:35 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 11:00:35 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 11:00:35 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:00:35 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:00:36 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatisCfg.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource UserMapper.xml
+2017-07-03 11:01:12 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 11:01:12 CST 2017]; root of context hierarchy
+2017-07-03 11:01:12 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 11:01:12 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 11:01:13 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:01:13 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:01:13 AbstractApplicationContext.java WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private gaoshuai.mapper.UserMapper gaoshuai.service.UserServiceImpl.userMapper; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [/Users/gaoshuai/gitLab/shop/target/classes/gaoshuai/mapper/UserMapper.class]: Cannot resolve reference to bean 'sqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatisCfg.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource UserMapper.xml
+2017-07-03 11:05:47 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 11:05:47 CST 2017]; root of context hierarchy
+2017-07-03 11:05:47 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 11:05:47 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 11:05:47 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:05:47 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:12:31 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 11:12:31 CST 2017]; root of context hierarchy
+2017-07-03 11:12:31 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 11:12:31 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 11:12:32 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 11:12:32 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:17:40 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 14:17:40 CST 2017]; root of context hierarchy
+2017-07-03 14:17:40 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 14:17:41 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 14:17:42 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:17:42 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:22:30 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@214b199c: startup date [Mon Jul 03 14:22:30 CST 2017]; root of context hierarchy
+2017-07-03 14:22:30 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 14:22:31 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 14:22:31 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:22:31 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:23:37 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 14:23:37 CST 2017]; root of context hierarchy
+2017-07-03 14:23:37 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 14:23:37 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 14:23:38 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 14:23:38 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:09:03 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 15:09:03 CST 2017]; root of context hierarchy
+2017-07-03 15:09:03 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:09:04 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:09:04 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:09:04 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:12:42 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 15:12:42 CST 2017]; root of context hierarchy
+2017-07-03 15:12:42 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:12:42 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:12:43 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:12:43 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:20:51 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 15:20:51 CST 2017]; root of context hierarchy
+2017-07-03 15:20:51 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:20:52 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:20:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:20:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:31:27 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@214b199c: startup date [Mon Jul 03 15:31:27 CST 2017]; root of context hierarchy
+2017-07-03 15:31:27 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:31:28 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:31:28 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:31:28 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:33:41 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@214b199c: startup date [Mon Jul 03 15:33:41 CST 2017]; root of context hierarchy
+2017-07-03 15:33:41 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:33:41 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:33:42 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:33:42 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:34:59 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@161b062a: startup date [Mon Jul 03 15:34:59 CST 2017]; root of context hierarchy
+2017-07-03 15:34:59 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:35:00 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:35:00 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:35:00 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:36:48 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@d2cc05a: startup date [Mon Jul 03 15:36:48 CST 2017]; root of context hierarchy
+2017-07-03 15:36:48 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:36:48 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:36:49 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:36:49 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:38:51 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@161b062a: startup date [Mon Jul 03 15:38:51 CST 2017]; root of context hierarchy
+2017-07-03 15:38:51 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:38:52 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:38:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:38:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:45:57 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@48524010: startup date [Mon Jul 03 15:45:57 CST 2017]; root of context hierarchy
+2017-07-03 15:45:57 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:45:58 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:45:58 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:45:58 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:46:21 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 15:46:21 CST 2017]; root of context hierarchy
+2017-07-03 15:46:21 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:46:21 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:46:21 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:46:21 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:47:27 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@5af97850: startup date [Mon Jul 03 15:47:27 CST 2017]; root of context hierarchy
+2017-07-03 15:47:27 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:47:28 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:47:28 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:47:28 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:49:24 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 15:49:24 CST 2017]; root of context hierarchy
+2017-07-03 15:49:24 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:49:24 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:49:25 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:49:25 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:49:59 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@d2cc05a: startup date [Mon Jul 03 15:49:59 CST 2017]; root of context hierarchy
+2017-07-03 15:49:59 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:50:00 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:50:00 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:50:00 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:50:51 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@28feb3fa: startup date [Mon Jul 03 15:50:51 CST 2017]; root of context hierarchy
+2017-07-03 15:50:51 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:50:51 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:50:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:50:52 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:51:26 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@28feb3fa: startup date [Mon Jul 03 15:51:26 CST 2017]; root of context hierarchy
+2017-07-03 15:51:26 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:51:26 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:51:26 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:51:26 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:52:06 AbstractApplicationContext.java INFO Refreshing org.test4j.module.spring.strategy.Test4JSpringContext@9629756: startup date [Mon Jul 03 15:52:06 CST 2017]; root of context hierarchy
+2017-07-03 15:52:06 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring.xml]
+2017-07-03 15:52:07 XmlBeanDefinitionReader.java INFO Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-07-03 15:52:08 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
+2017-07-03 15:52:08 PropertiesLoaderSupport.java INFO Loading properties file from class path resource [jdbc.properties]
